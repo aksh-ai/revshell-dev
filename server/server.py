@@ -40,5 +40,5 @@ with socket.socket() as s:
                 conn.sendall(stage1_buf)
                 
         else:
-            print("ERROR, not given magic STRING")
+            print("Error in input string")
 
